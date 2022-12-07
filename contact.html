@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact</title>
+  <link href="style.css" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+  <link rel="icon" type="image/png" href="/images/hammerheadLogo.png">
+</head>
+
+<body>
+  <header>
+    <span class="logo">HAMMERHEAD</span>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="socialMedia.html">Social Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button onclick="darkMode()">Toggle Dark Theme</button>
+    </div>
+  </header>
+  <main>
+    <h1>Contact HAMMERHEAD</h1>
+    <form action="https://formsubmit.co/noisewallbusiness@gmail.com" method="POST" >
+      <div>
+        <label for="name">Your Name:</label>
+        <input required name="name" id="name">
+      </div>
+      <div>
+        <label for="email">Your Email:</label>
+        <input required name="email" id="email" type="email">
+      </div>
+      <div>
+        <label for="message">Your Message:</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  
+  <footer>
+    <p>Copyright HAMMERHEAD 2022</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
